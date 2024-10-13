@@ -1,0 +1,283 @@
+.navbar {
+    background-color: #4a5d5e;
+    height: 85px;
+}
+
+.navbar-profile {
+    background-color: #ffece0;
+}
+
+.container {
+    height: 100%;
+}
+.navbar-brand {
+    font-family: serif;
+    color: beige;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.navbar-icon {
+    color: black;
+    font-size: 30px;
+
+}
+
+.login-btn {
+    font-family: serif;
+    background: none;
+    border: none;
+    color: beige;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration:none;
+    line-height: 3;
+}
+
+body {
+    background-color: #ffece0;
+    font-family: serif;
+}
+
+.content-box {
+    background-color: white;
+    padding: 20px;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.content-box h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color:#475c58;
+}
+
+.content-box p {
+    line-height: 1;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.profile-info {
+    flex-direction: column;
+    margin-top: 15px;
+}
+.profile-section{
+    margin-left:4%
+}
+.postitus{
+    width: 90%; 
+    display: block; 
+    margin:auto
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.button{
+    background-color: #4a5d5e;
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color:#4a5d5e;
+}
+
+.footer h1 {
+    font-family: serif;
+    color: #ffece0;
+    font-size: 16px;
+}
+
+.footer p {
+    font-family: serif;
+    color: #ffece0;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.footer a {
+    margin-right: 17px;
+}
+
+.footer a:last-child {
+    margin-right: 0;
+}
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top:50px;
+  }
+
+.log-in{
+    text-align: center;
+    color: beige;
+    font-family: serif;
+}
+
+.form-group label{
+    margin-left:10%;
+    margin-top:20px;
+    margin-bottom:5px;
+    font-family: serif;
+    color: beige;
+    font-size: 18px;
+    font-weight: lighter;
+    
+}
+.form-control-login{
+    width: 80%;
+    padding:2px 2px;
+    margin-left:10%;
+    border-radius:5px;
+}
+.loginbutton{
+    width:80%;
+    font-size: 20px;
+    background-color: #0c94f5;
+    
+}
+
+.flex-container {
+    display: flex;
+    height: 100px;
+    flex-flow: column wrap;
+    align-content: space-between;
+}
+
+.flex-container > a {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    color:beige;
+    margin-top:20px;
+    text-decoration:none;
+}
+  
+.search {
+    position: relative;
+    width:90%;
+    margin-left:5%;
+    border: 1px solid;
+    border-radius: 30px;
+  }
+  
+.search input {
+    width: 100%;
+    padding: 15px 5px 15px 10px;
+    display: block;
+    border-radius:30px;
+    background-color:#ffece0;
+    border:none;
+    font-size:12px
+  }
+  
+.search button {
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 5px;
+  }
+
+.bi-search {
+    background-color: #4a5d5e;
+    border-radius: 50%;
+    color: #ffece0;
+    
+}
+
+.main-pic{
+    width:100%
+}
+.center-img-header{
+    display:none
+
+}
+
+@media only screen and (min-width: 600px) {
+    .center-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        margin-top:50px;
+        max-width:250px;
+      }
+    .loginbutton{
+        width:200px;
+    }
+
+    .form-group label{
+        width: 60%;
+        max-width:400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:20px;
+        margin-bottom:-10px;
+
+    }
+    .form-control-login{
+        width: 60%;
+        max-width:400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius:5px;
+    }
+    .flex-container > a {
+        width: 150px;
+        text-align: center;
+        margin-top:50px;
+    }
+    .center-img-header{
+        display:block;
+        max-width:100px
+    
+    }
+    .front-page {
+        background-color: #4a5d5e;
+        height: 160px;
+    }
+    .navbar-brand {
+        line-height: 5;
+    }
+    
+    .login-btn {
+        line-height: 7
+    }
+    .search input {
+        font-size:18px
+      }
+    .search button {
+        padding: 10px 10px;
+      }
+    .postitus{
+        max-width: 600px; 
+    }
+}
